@@ -18,6 +18,10 @@ paginate = 10
     tagline = "The changelog of the project called Maheswaran!"
     home = "Blog Index"
 
+    theme = "theme-base-mmn"
+
+    customCSS = "/css/blog.css"
+
     github = "http://github.com/maheswaranm"
     twitter = "http://twitter.com/maheswaranm"
     linkedin = "http://linkedin.com/in/maheswaranm"

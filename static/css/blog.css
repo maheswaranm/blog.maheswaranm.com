@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+.theme-base-mmn .sidebar {
+    background-color: #348cb2;
+}
+.theme-base-mmn .label {
+    background-color: #348cb2;
+}
+
+.theme-base-mmn .pagination > li > a,
+.theme-base-mmn .pagination > li > span {
+    color: #348cb2;
+}
+
+.theme-base-mmn .pagination > .active > a,
+.theme-base-mmn .pagination > .active > span,
+.theme-base-mmn .pagination > .active > a:hover,
+.theme-base-mmn .pagination > .active > span:hover,
+.theme-base-mmn .pagination > .active > a:focus,
+.theme-base-mmn .pagination > .active > span:focus {
+    background-color: #348cb2;
+    border-color: #348cb2;
+}
+
+.theme-base-mmn .pagination > .disabled > span,
+.theme-base-mmn .pagination > .disabled > span:hover,
+.theme-base-mmn .pagination > .disabled > span:focus,
+.theme-base-mmn .pagination > .disabled > a,
+.theme-base-mmn .pagination > .disabled > a:hover,
+.theme-base-mmn .pagination > .disabled > a:focus {
+    color: #777;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.sidebar-about h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.35em;
+}
+
+.lead {
+    font-size: 1em;
+    font-weight: 300;
+}
