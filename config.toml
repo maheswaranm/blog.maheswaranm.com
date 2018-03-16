@@ -2,7 +2,6 @@ baseurl = "https://blog.maheswaranm.com/"
 title = "Just Another Developer Blog"
 languageCode = "en-us"
 MetaDataFormat = "toml"
-theme = "hyde-x"
 paginate = 10
 
 [author]
@@ -11,16 +10,11 @@ paginate = 10
 [permalinks]
     # Optional. Change the permalink format for the 'post' content type.
     # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "/blog/:year/:month/:day/:title/"
+    post = "/:year/:month/:day/:title/"
 
 [params]
     mainURL = "https://maheswaranm.com"
     tagline = "The changelog of the project called Maheswaran!"
-    home = "Blog Index"
-
-    theme = "theme-base-mmn"
-
-    customCSS = "/css/blog.css"
 
     github = "http://github.com/maheswaranm"
     twitter = "http://twitter.com/maheswaranm"
