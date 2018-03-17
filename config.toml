@@ -8,9 +8,7 @@ paginate = 10
     name = "Maheswaran Moothiringode"
 
 [permalinks]
-    # Optional. Change the permalink format for the 'post' content type.
-    # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "posts/:year/:month/:day/:title/"
+    posts = "posts/:year/:month/:day/:title/"
 
 [params]
     mainURL = "https://maheswaranm.com"
@@ -21,3 +19,8 @@ paginate = 10
     linkedin = "http://linkedin.com/in/maheswaranm"
 
     rss = true
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
