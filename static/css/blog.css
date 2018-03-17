@@ -1,4 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    background: #348cb2;
+    color: #fff;
+    min-height: 100%;
+    padding-top: 125px;
+    margin-bottom: 65px;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  a {
+      color:#fff;
+  }
+  
+  .name {
+    width: 75%;
+    font-weight: bold;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  .namebrand {
+    font-weight: bold;
+    color: #ffff;
+    font-size: 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .namebrand-small {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+ 
+  .main {
+    border-radius: 25px;
+    max-width: 75%;
+    background: #39687c;
+  }
+
+  #navbar {
+      background: #348cb2;
+  }
+
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: #348cb2;
+}
+
+
 .theme-base-mmn .sidebar {
     background-color: #348cb2;
 }
