@@ -10,11 +10,11 @@ paginate = 10
 [permalinks]
     # Optional. Change the permalink format for the 'post' content type.
     # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "/:year/:month/:day/:title/"
+    post = "posts/:year/:month/:day/:title/"
 
 [params]
     mainURL = "https://maheswaranm.com"
-    tagline = "The changelog of the project called Maheswaran!"
+    tagline = "Changelog of the project Maheswaran!"
 
     github = "http://github.com/maheswaranm"
     twitter = "http://twitter.com/maheswaranm"
