@@ -4,6 +4,7 @@ categories = ['Ramblings']
 keywords = ['hello','introduction']
 description = "New beginnings!"
 date = "2017-04-14T20:22:42-04:00"
+tags = ['introduction']
 
 +++
 
