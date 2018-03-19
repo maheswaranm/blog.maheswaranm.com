@@ -1,9 +1,16 @@
 {{ partial "header" . }}
 
   <div class="container-fluid main p-5">
-    {{ range .Site.AllPages }}
+    {{ range (where .Data.Pages "Type" "posts") }}
     <div>
-          {{ .Title }} - {{ .Kind }} - <a href="{{ .Permalink }}" target="_blank">Link</a>
+        <span class="mx-3">{{ dateFormat "2006-01-02" .Date }}</span>   <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <span class="float-right">
+            {{ if .Params.categories }}
+                    {{range .Params.categories}}
+                        <span class="post-categories px-3"><a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></span>
+                    {{end}}
+            {{end}}
+        </span>
     </div>
     {{ end }}
 
