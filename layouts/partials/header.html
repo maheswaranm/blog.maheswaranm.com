@@ -14,7 +14,7 @@
 <body>
     <div id="navbar" class="navbar navbar-expand-md navbar-light fixed-top">
         <div class="d-block d-md-none navbar-brand name">
-            {{ .Site.Author.name }}
+            <a href="/">{{ .Site.Author.name }}</a>
         </div>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bar" aria-controls="navbarSupportedContent"
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse flex-column" id="bar">
             <div class="navbar-nav w-100">
                 <div id="namebrand" class="d-none d-md-block namebrand">
-                    {{ .Site.Author.name }}
+                    <a href="/">{{ .Site.Author.name }}</a>
                 </div>
 
                 <div class="navbar-nav ml-auto icons">
