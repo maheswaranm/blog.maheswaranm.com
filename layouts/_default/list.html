@@ -1,5 +1,14 @@
-List page
+{{ partial "header" . }}
 
-{{ range .Data.Pages }}
-    {{ .Title }}<br/>
-{{ end }}
+<div class="container-fluid main p-5">
+    <div class="list-header">
+        All {{ .Section }}
+    </div>
+
+    {{ range .Pages }}
+        <div><a href="{{ .URL }}">{{ .Title }}</a></div>
+    {{ end }}
+</div>
+
+
+{{ partial "footer" . }}
