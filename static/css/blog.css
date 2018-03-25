@@ -83,3 +83,7 @@ a {
     font-size: 2.5em;
     text-align: center;
 }
+
+.post-meta {
+    font-size: 0.85em;
+}
