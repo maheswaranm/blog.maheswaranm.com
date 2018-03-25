@@ -1,59 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-
 html {
     position: relative;
     min-height: 100%;
-  }
-  
-  body {
+}
+
+body {
     background: #348cb2;
     color: #fff;
     min-height: 100%;
     padding-top: 125px;
     margin-bottom: 65px;
     font-family: 'Fira Sans', sans-serif;
-  }
+}
 
-  a {
-    color:#FFFF;
-  }
+a {
+    color: #FFFF;
+}
 
+.main a {
+    color: #64D0FE;
+}
 
-  .main a {
-      color:#64D0FE;
-  }
-  
-  .name {
+.name {
     width: 75%;
     font-weight: bold;
     word-wrap: break-word;
     white-space: normal;
-  }
+}
 
-  .namebrand {
+.namebrand {
     font-weight: bold;
     color: #ffff;
     font-size: 3em;
     font-family: 'Source Sans Pro', sans-serif;
-  }
+}
 
-  .namebrand-small {
+.namebrand-small {
     font-weight: bold;
     font-size: 1.5em;
-  }
- 
-  .main {
+}
+
+.main {
     border-radius: 25px;
     max-width: 75%;
     background: #39687c;
-  }
+}
 
-  #navbar {
-      background: #348cb2;
-  }
+#navbar {
+    background: #348cb2;
+}
 
-  .footer {
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -61,28 +59,27 @@ html {
     height: 60px;
     line-height: 60px;
     background-color: #348cb2;
-    }
+}
 
-    .post-header {
-        border-bottom: 1px solid white;
-    }
+.post-header {
+    border-bottom: 1px solid white;
+}
 
-    .post-categories {
-        background: #B27834;
-        border-radius: 25px;
-        color: #ffff;
-    }
+.post-categories {
+    background: #B27834;
+    border-radius: 25px;
+    color: #ffff;
+}
 
-    .post-categories a {
-        color: #ffff;
-    }
+.post-categories a {
+    color: #ffff;
+}
 
+.post-title {
+    font-size: 2.5em;
+}
 
-    .post-title {
-        font-size: 2.5em;
-    }
-
-    .list-header {
-        font-size: 2.5em;
-        text-align: center;
-    }
+.list-header {
+    font-size: 2.5em;
+    text-align: center;
+}
